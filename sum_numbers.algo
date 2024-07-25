@@ -1,0 +1,14 @@
+ALGORITHM sum_up_three_num
+VAR
+    num1,num2,num3: INTEGER
+    sum:INTEGER:=0
+BEGIN
+    Read(num1)
+    Read(num2)
+    Read(num3)
+    sum := num1 + num2 + num3
+    IF (sum<10) THEN
+        sum:=sum+20
+    END_IF
+    Write(sum)
+END
